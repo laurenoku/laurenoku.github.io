@@ -1,9 +1,10 @@
 *{
   font-family: helvetica;
   text-transform: uppercase;
-  color: red;
+  color: white;
   letter-spacing: 1px;
-  font-size: 16px
+  font-size: 16px;
+  background-color: black;
 }
 .image{
   height:50%;
