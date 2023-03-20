@@ -1,4 +1,4 @@
-*{
+header{
   font-family: helvetica;
   text-transform: uppercase;
   color: white;
@@ -7,7 +7,12 @@
   background-color: black;
 }
 .and{
+  font-family: helvetica;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
   font-size: 30px;
+  background-color: black;
 }
 .image{
   height: 25%;
