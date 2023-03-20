@@ -5,8 +5,9 @@
   letter-spacing: 1px;
   font-size: 20px;
   background-color: black;
-  text-align: center;
 }
+.and{
+  font-size: 30px
 .image{
   height: 25%;
   width: 25%;
