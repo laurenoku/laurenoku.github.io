@@ -1,9 +1,26 @@
 *{
-  font-family: helvetica;
-  text-transform: uppercase;
-  color: white;
-  letter-spacing: 1px;
-  font-size: 20px;
-  background-color: black;
-}
+    background-color: black;
+  }
+  h1{font-family: helvetica;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+  }
+  .site{
+    font-family: helvetica;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  .and{
+    font-family: helvetica;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 100px;
+    text-align: center;
+  }
 
