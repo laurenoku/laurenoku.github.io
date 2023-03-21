@@ -73,6 +73,7 @@ main {
     flex-direction: column;
     padding-top: 70px;
 }
+
 .container-head {
     display: flex;
     flex-direction: column;
@@ -182,11 +183,13 @@ figcaption {
 #contact h2 {
     margin: 1% auto;
 }
+
 #contact h5 {
     margin: 2.9% auto;
 }
 
 /*footer*/
+
 footer {
     padding: 20px;
     display: flex;
@@ -201,10 +204,13 @@ footer {
         padding-top: 70px;
     }
 }
+
 @media only screen and (max-width:755px) {
+
     main {
         top: 107px;
     }
+
     /*aligns header in columns*/
     header {
         display: flex;
@@ -212,30 +218,37 @@ footer {
         width: 100%;
         height: auto;
     }
+
     nav {
         display: flex;
         flex-direction: row;
     }
+
     header img {
         height: 50px;
         margin-top: 10px;
     }
+
     #mission {
         width: 90%;
         max-height: 500px;
     }
+
     #featured_tea {
         width: 100%;
         padding-top: 14.17%;
     }
+
     #locations {
         width: 90%;
         padding-top: 14.17%;
         max-height: 1000px;
     }
+
     #contact {
         height: 150px;
     }
+
     footer {
         position: relative;
         top: 40px;
@@ -251,27 +264,34 @@ footer {
     header img {
         display: none;
     }
+
     #mission {
         width: 95%;
     }
+
     #mission h4 {
         font-size: 0.85rem;
     }
+
     #featured_tea {
         padding-top: 46px;
     }
+
     #featured_tea h4 {
         font-size: 0.95rem;
     }
+
     figure {
         width: 95%;
         margin: none;
     }
+
     #locations {
         width: 95%;
         max-height: 900px;
         background-position: right;
     }
+
     .adress p {
         padding: 5% 0;
     }
@@ -290,25 +310,32 @@ footer {
     main {
         top: 109px;
     }
+
     nav {
         flex-direction: column;
     }
+    
     header a{
         margin: 5px;
     }
+
     #featured_tea {
         padding-top: 110px;
     }
+
     #locations {
         margin-top: 55px;
         padding-top: 55px;
     }
+
     #locations h2 {
         padding-bottom: 20px;
     }
+
     #contact h2 {
         padding-top: 20px;
     }
+
     footer {
         top: 109px;
     }
