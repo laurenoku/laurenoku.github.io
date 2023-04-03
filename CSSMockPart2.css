@@ -1,0 +1,88 @@
+/* Mock 1 */
+button{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}
+button:hover {
+    background-color: #3771b8;
+    cursor: pointer;
+}
+/* Mock 2 */
+img {
+    height: 200px;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.container {
+    background-color: gainsboro;
+    position: absolute center;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 0 auto;
+}
+h3 {
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+    position: relative;
+    top: -24px;
+    padding: 1em;
+}
+section {
+    position: relative;
+    top: -30px;
+    margin: 0 1em;
+}
+/* Mock 3 */
+.gifs {
+    display: flex;
+    justify-content: space-around;
+}
+.gif {
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+    border: 5px solid lightpink;
+    overflow: hidden;
+}
+
+.nom, .dance, .highfive {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nom {
+    background-image: url(https://external-preview.redd.it/HqjrjwJRBxveemebksGn3ys-YjND0UJDhKPdnA0S49Y.gif?format=mp4&v=enabled&s=9ec02f82142dad90784c37752e90becb0dcd97bc);
+}
+
+.dance {
+    background-image: url(https://media.tenor.com/JFLT1AjRsTwAAAAC/kristen-wiig.gif);
+}
+
+.highfive {
+    background-image: url(https://media.tenor.com/u-VEIMOfN3oAAAAC/self-five-tina-fey.gif);
+}
+.caption {
+    height:100%;
+    width: 100%;
+    background-color: rgba(92, 91, 91, 0.5);
+    transition: top 0.8s;
+    position: relative;
+    top: 250px;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.gif:hover .caption {
+    top: -200px;
+    cursor: pointer;
+}
