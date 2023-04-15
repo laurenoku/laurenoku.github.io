@@ -33,7 +33,7 @@ h1 {
     font-size: 20px;
     text-decoration: none;
     color: black;
-    max-height: 350px;
+    max-height: 58vh;
     overflow: scroll;
     align-items: flex-start;
     overflow-x: hidden;
