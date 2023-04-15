@@ -1,9 +1,8 @@
-*{
-   font-family: helvetica, sans-serif;
+* {
+   font-family: 'Gotham', sans-serif;
 }
 
 h1 {
-   font-family: helvetica, sans-serif;
    letter-spacing: .2em;
    font-size: 3.5em;
 }
@@ -12,7 +11,7 @@ h1 {
     color: black;
     padding: 20px;
     font-size: 24px;
-    box-shadow: 4px 8px 16px 4px rgba(232, 225, 225, 0.4);
+    box-shadow: 4px 8px 16px 4px rgba(232, 225, 225, 0.6);
     cursor: pointer;
     font-family: helvetica, sans-serif;
     letter-spacing: .1em;
@@ -27,9 +26,8 @@ h1 {
     position: absolute;
     background-color: rgba(255, 255, 255, 75%);
     width: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(232, 225, 225, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(232, 225, 225, 0.6);
     z-index: 1;
-    font-family: helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -62,11 +60,9 @@ h1 {
    height: 100px;
    text-align: right;
    display: block;
-   background-color: ;
    align-content: flex-start;
  }
 a{
-   font-family: helvetica, san-serif;
    letter-spacing: .1em;
    text-decoration: none;
    color: black;
@@ -74,22 +70,11 @@ a{
 }
 .color {
    position: relative;
-   top: -25px;
+   top: -20px;
    left: 125px;
    text-align: left;
    background-color: white;
+   letter-spacing: .2em;
 }
 
 @media only screen and (max-width:320px)
-
-.color {
-   position: relative;
-   top: -25px;
-   left: 125px;
-   text-align: left;
-   background-color: white;
-   width: 400px;
-}
-
-@media only screen and (max-width:320px)
- 
