@@ -12,7 +12,7 @@ h1 {
     color: black;
     padding: 20px;
     font-size: 24px;
-    box-shadow: 1px 8px 16px 1px rgba(232, 225, 225, 0.3);
+    box-shadow: 4px 8px 16px 4px rgba(232, 225, 225, 0.4);
     cursor: pointer;
     font-family: helvetica, sans-serif;
     letter-spacing: .1em;
@@ -30,12 +30,13 @@ h1 {
     box-shadow: 0px 8px 16px 0px rgba(232, 225, 225, 0.2);
     z-index: 1;
     font-family: helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     max-height: 350px;
     overflow: scroll;
     align-items: flex-start;
+    overflow-x: hidden;
  }
  drop-content a {
     color: black;
@@ -80,3 +81,15 @@ a{
 }
 
 @media only screen and (max-width:320px)
+
+.color {
+   position: relative;
+   top: -25px;
+   left: 125px;
+   text-align: left;
+   background-color: white;
+   width: 400px;
+}
+
+@media only screen and (max-width:320px)
+ 
