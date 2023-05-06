@@ -22,3 +22,22 @@ form.addEventListener("submit", function (event){
         event.target.classList.toggle('completed-task')
     }
  });
+
+ const checkbox = document.getElementById("input");
+
+const checkedColor="#105f87"; 
+const uncheckedColor="#fff";
+
+function changeColor()  {
+  if (checkbox.checked) { 
+    document.body.style.backgroundColor = checkedColor; 
+    localStorage.setItem('darkModeEnabled', true)
+  }
+  else {
+    document.body.style.backgroundColor = uncheckedColor; 
+  }
+}
+
+
+checkbox.addEventListener('click', changeColor);
+
