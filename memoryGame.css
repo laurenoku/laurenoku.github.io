@@ -55,8 +55,8 @@ body {
 
 .game-card-wrapper {
   perspective: 600px;
-  width: 90%;
-  padding-bottom: 75%;
+  width: 95%;
+  padding-bottom: 95%;
   position: relative;
   margin: 1rem auto;
 }
