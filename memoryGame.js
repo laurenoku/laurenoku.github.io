@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let pairs = shuffle(indices.concat(indices));
 
     for (let i = 0; i < cards.length; i++) {
-      let path = "https://github.com/laurenoku/laurenoku.github.io/blob/main/" + pairs[i] + ".gif";
+      let path = "Gif/" + pairs[i] + ".gif";
       cards[i].children[1].children[0].src = path;
     }
   }
